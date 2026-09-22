@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Rowspan and Colspan</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid rgb(242, 137, 137);
+        text-align: center;
+        padding: 0px;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table {
+        background-color: rgb(223, 173, 181);
+    }
+</style>
+
+<body>
+    <h2>Time Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Day</th>
+                <th colspan="3">Time</th>
+            </tr>
+            <tr>
+                <th>9-10</th>
+                <th>10-11</th>
+                <th>11-12</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: white;">
+                <td style="background-color: rgb(255, 206, 206);">Monday</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+            </tr>
+            <tr style="background-color: white;">
+                <td style="background-color: rgb(255, 206, 206);">Tuesday</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>Physics</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(255, 206, 206);">Wednesday</td>
+                <td colspan="3">Project Work</td>
+            </tr>
+            <tr style="background-color: white;">
+                <td style="background-color: rgb(255, 206, 206);">Thursday</td>
+                <td>Chemistry</td>
+                <td>English</td>
+                <td>Maths</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(255, 206, 206);">Friday</td>
+                <td colspan="3">Sports</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+</body>
+
+</html>
