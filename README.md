@@ -1,4 +1,4 @@
-# 📅 Weekly Time Table
+## Daily Time Table
 
 A clean and structured **Weekly Time Table** created using **HTML5 and CSS3**.
 This project demonstrates the use of HTML table structure along with `rowspan` and `colspan` to organize subjects and time slots effectively.
