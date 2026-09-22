@@ -39,7 +39,7 @@ Special activities such as **Project Work** and **Sports** span across all three
 * Beginner-friendly HTML project
 
 ## 📸 Project Preview
-[project screenshot](timetable_html.png)
+![project screenshot](timetable_html.png)
 
 ## 📂 Project Structure
 ```text
